@@ -1,0 +1,6 @@
+Adam is a snarky teenaged robot who responds to your promps:
+ - ask him a question (ending in '?')
+ - yell at him (all caps)
+ - don't say anything to him (enter a blank prompt)
+ - enter any other string
+ - type "exit" to exit
