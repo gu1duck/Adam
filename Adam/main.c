@@ -10,17 +10,17 @@
 #include <string.h>
 #include <ctype.h>
 
+char input[255];
+char responseToDefaultInput[] = "Whatever.\n";
+char responseToBlankInput[] = "Fine. Be that way!\n";
+char responseToCapsInput[] = "Woah, chill out!\n";
+char responseToQuestionInput[] = "Sure\n";
+int isAQuestion (char[]);
+int isAYell (char[]);
+
 int main(int argc, const char * argv[])
 {
-    char const exit[] = "exit";
-    
-    char input[255];
-    char responseToDefaultInput[] = "Whatever.\n";
-    char responseToBlankInput[] = "Fine. Be that way!\n";
-    char responseToCapsInput[] = "Woah, chill out!\n";
-    char responseToQuestionInput[] = "Sure\n";
-    int isAQuestion (char[]);
-    int isAYell (char[]);
+    char exit[] = "exit";
     
     //initial prompt
     printf("What do you want?\n> ");
