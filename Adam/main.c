@@ -10,6 +10,7 @@
 #include <string.h>
 #include <ctype.h>
 
+
 char input[255];
 char responseToDefaultInput[] = "Whatever.\n";
 char responseToBlankInput[] = "Fine. Be that way!\n";
